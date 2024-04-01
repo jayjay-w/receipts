@@ -8,6 +8,7 @@ module Receipts
   autoload :Invoice, "receipts/invoice"
   autoload :Receipt, "receipts/receipt"
   autoload :Statement, "receipts/statement"
+  autoload :Statement, "receipts/requisition"
 
   @@default_font = nil
 
